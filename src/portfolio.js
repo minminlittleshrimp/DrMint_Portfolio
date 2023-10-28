@@ -72,10 +72,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-android"
     },
     {
-      skillName: "Atlassian",
-      fontAwesomeClassname: "fab fa-atlassian"
-    },
-    {
       skillName: "Git",
       fontAwesomeClassname: "fab fa-git-alt"
     },
@@ -122,15 +118,27 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "C", //Insert stack or technology you have experience in
+      progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "C++",
+      progressPercentage: "60%"
     },
     {
-      Stack: "Programming",
+      Stack: "Python",
+      progressPercentage: "40%"
+    },
+    {
+      Stack: "Javascript",
+      progressPercentage: "20%"
+    },
+    {
+      Stack: "Bash shell",
+      progressPercentage: "50%"
+    },
+    {
+      Stack: "Makefile",
       progressPercentage: "60%"
     }
   ],
@@ -143,11 +151,11 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Software Engineering Coordinator",
+      company: "Bosch Global Software Technologies Vietnam",
+      companylogo: require("./assets/images/BGSW.jpg"),
+      date: "Jan 2023 - Present",
+      desc: "Full-time",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
