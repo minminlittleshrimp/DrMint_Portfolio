@@ -166,9 +166,7 @@ const workExperiences = {
       companylogo: require("./assets/images/ADIT.jpg"),
       date: "Nov 2021 - Present",
       desc: "Full-time",
-      descBullets: [
-        "Embedded Linux · Embeded Android · QNX"
-      ]
+      descBullets: ["Embedded Linux · Embeded Android · QNX"]
     },
     {
       role: "Software Engineer Intern",
@@ -234,52 +232,24 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
+      title: "IELTS certificate of 7.0",
+      subtitle: "IDP Education Ltd · Issued May 2023 · Expires May 2025",
+      image: require("./assets/images/Band7Ielts.jpg")
     },
     {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
+      title: "STEM 2019 certification of recognition",
+      subtitle: "Vietnamese-German University",
+      image: require("./assets/images/vguLogo.png")
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
+      title: "BIG-O GREEN: ELEMENTARY ALGORITHMS",
+      subtitle: "Completed Green Certifcation from BIG-O",
+      image: require("./assets/images/Green.png")
+    },
+    {
+      title: "BIG-O BLUE: INTERMEDIATE ALGORITHMS",
+      subtitle: "Completed Blue Certifcation from BIG-O",
+      image: require("./assets/images/Blue.png")
     }
   ],
   display: true // Set false to hide this section, defaults to true
