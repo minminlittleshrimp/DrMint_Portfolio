@@ -100,7 +100,7 @@ const educationInfo = {
       schoolName: "Vietnamese-German University",
       logo: require("./assets/images/vguLogo.png"),
       subHeader:
-        "Bachelor of Engineering - BE, Electrical Engineering and Information TechnologyBachelor of Engineering - BE, Electrical Engineering and Information Technology",
+        "Bachelor of Engineering - BE, Electrical Engineering and Information Technology",
       duration: "October 2017 - January 2022",
       desc: "Ranked top 1 in the program. Took courses about Embedded Programming, Network routing and communicating, Digital Signal Processing",
       descBullets: [
@@ -152,33 +152,33 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineering Coordinator",
-      company: "Bosch Global Software Technologies Vietnam",
+      company: "BGSW Vietnam",
       companylogo: require("./assets/images/BGSW.jpg"),
       date: "Jan 2023 - Present",
       desc: "Full-time",
       descBullets: [
-        "- Keeping team in line with all current activities and task prioritization",
-        "- Clarifying any impediments and providing immediately solutions",
-        "- Contact point/Point of Communication: distributing information, including requirements, updates, or challenges to all stakeholders",
-        "- Keeping track of all project activities, tasks, documents, and team members",
-        "- Determining goals and objectives at the beginning of the project until it is accomplished",
-        "- Resolving conflict or miscommunication that may arise to avoid any negative impact on team collaboration",
-        "Skills: Problem Analysis · Leadership · Goal Setting · Delegation · Decision-Making · Time Management · Relationship Building · Communication · Problem Solving"
+        "Problem Analysis · Leadership · Goal Setting · Delegation · Decision-Making · Time Management · Relationship Building · Communication · Problem Solving"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Embedded Software Engineer",
+      company: "ADIT - Advanced Driver Information Technology",
+      companylogo: require("./assets/images/ADIT.jpg"),
+      date: "Nov 2021 - Present",
+      desc: "Full-time",
+      descBullets: [
+        "Embedded Linux · Embeded Android · QNX"
+      ]
     },
     {
       role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      company: "BGSW Vietnam",
+      companylogo: require("./assets/images/BGSW.jpg"),
+      date: "Jun 2021 - Nov 2021",
+      desc: "Internship",
+      descBullets: [
+        "C++ · Teamwork · JavaScript · HTML · Communication · Qt · Networking"
+      ]
     }
   ]
 };
@@ -195,28 +195,28 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "SOME COMPANIES THAT I WORK WITH IN MY PROJECTS",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/GM.png"),
+      projectName: "GMVCU",
+      projectDesc: "",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://www.gm.com/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/VW.png"),
+      projectName: "IDBuzz",
+      projectDesc: "",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://www.vw.com/"
         }
       ]
     }
@@ -306,7 +306,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -325,7 +325,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -338,22 +338,22 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+84-0382424842",
+  email_address: "minhmark47@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
