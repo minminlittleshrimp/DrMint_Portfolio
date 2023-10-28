@@ -72,10 +72,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-android"
     },
     {
-      skillName: "Gitlab",
-      fontAwesomeClassname: "fab fa-gitlab"
-    },
-    {
       skillName: "Atlassian",
       fontAwesomeClassname: "fab fa-atlassian"
     },
@@ -94,10 +90,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
-    },
-    {
-      skillName: "RasPi",
-      fontAwesomeClassname: "fab fa-raspberry-pi"
     }
   ],
   display: true // Set false to hide this section, defaults to true
