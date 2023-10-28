@@ -157,8 +157,13 @@ const workExperiences = {
       date: "Jan 2023 - Present",
       desc: "Full-time",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "- Keeping team in line with all current activities and task prioritization",
+        "- Clarifying any impediments and providing immediately solutions",
+        "- Contact point/Point of Communication: distributing information, including requirements, updates, or challenges to all stakeholders",
+        "- Keeping track of all project activities, tasks, documents, and team members",
+        "- Determining goals and objectives at the beginning of the project until it is accomplished",
+        "- Resolving conflict or miscommunication that may arise to avoid any negative impact on team collaboration",
+        "Skills: Problem Analysis · Leadership · Goal Setting · Delegation · Decision-Making · Time Management · Relationship Building · Communication · Problem Solving"
       ]
     },
     {
