@@ -35,8 +35,8 @@ const socialMediaLinks = {
   github: "https://github.com/minminlittleshrimp",
   linkedin: "https://www.linkedin.com/in/minh-l-q/",
   gmail: "minhmark47@gmail.com",
-  gitlab: "",
-  facebook: "",
+  gitlab: "https://gitlab.adit-cloud.com/mluu",
+  facebook: "https://www.facebook.com/profile.php?id=100004186217509",
   medium: "",
   stackoverflow: "",
   // Instagram, Twitter and Kaggle are also supported in the links!
@@ -128,18 +128,6 @@ const techStack = {
     {
       Stack: "Python",
       progressPercentage: "40%"
-    },
-    {
-      Stack: "Javascript",
-      progressPercentage: "20%"
-    },
-    {
-      Stack: "Bash shell",
-      progressPercentage: "50%"
-    },
-    {
-      Stack: "Makefile",
-      progressPercentage: "60%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -195,7 +183,7 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: true, // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -240,20 +228,6 @@ const achievementSection = {
   subtitle: "Achievements, Certifications and Spot Awards",
 
   achievementsCards: [
-    {
-      title: "IELTS certificate of 7.0",
-      subtitle: "IDP Education Ltd · Issued May 2023 · Expires May 2025",
-      image: require("./assets/images/Band7Ielts.jpg"),
-      imageAlt: "IELTS Logo",
-      footerLink: [{name: "Certification", url: ""}]
-    },
-    {
-      title: "STEM 2019 certification of recognition",
-      subtitle: "Vietnamese-German University",
-      image: require("./assets/images/vguLogo.png"),
-      imageAlt: "VGU Logo",
-      footerLink: [{name: "Certification", url: ""}]
-    },
     {
       title: "BIG-O GREEN: ELEMENTARY ALGORITHMS",
       subtitle: "Completed Green Certifcation from BIG-O",

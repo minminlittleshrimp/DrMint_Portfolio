@@ -27,7 +27,7 @@ if (USE_GITHUB_DATA === "true") {
     bio
     avatarUrl
     location
-    pinnedItems(first: 2, types: [REPOSITORY]) {
+    pinnedItems(first: 6, types: [REPOSITORY]) {
       totalCount
       edges {
           node {
